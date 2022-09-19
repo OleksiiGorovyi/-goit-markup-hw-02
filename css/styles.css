@@ -98,9 +98,13 @@ body {
         font-size: 16px;
         line-height: 1.87;
         letter-spacing: 0.06em;
-        color: var(--btn-text-color);
-        background-color: var(--btn-bg-color);
+        color: #FFFFFF;
+        background-color: var(--accent-color);
         cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+        background-color:#188CE8;
 }
 
 
@@ -110,6 +114,7 @@ body {
 
 .values-title {
         font-weight: 700;
+        font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
